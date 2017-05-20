@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:latest
+FROM mhart/alpine-node:7
 
 RUN apk add --no-cache git bash openssh
 RUN apk add --no-cache --repository https://dl-cdn.alpinelinux.org/alpine/edge/community yarn
