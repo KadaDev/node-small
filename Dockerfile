@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:9
+FROM mhart/alpine-node:10
 
 RUN apk add --no-cache git bash openssh openssh-client libc6-compat
 
